@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body class="fundo">
+<body class="fundo" id="fundo">
 	<header>
 		<nav>
 			<a class="logo" href="index.html">Vaccine</a>
@@ -34,13 +34,23 @@
         <h1>Contato</h1>
         <p>Entre em contato conosco para mais informações.</p>
         <div class="form">
-            <form action="javascript:sendEmail();" class="formulario" method="post">
+            <form class="formulario" method="post">
                 <div class="formulario__grupo">
                     <input class="formulario__campo" id="nome" type="text" name="nome" placeholder="Nome" required>
                 </div>
                 <div class="formulario__grupo">
                     <input class="formulario__campo" id="email" type="email" name="email" placeholder="E-mail" required>
                 </div>
+
+                <select class="formulario__campo option" name="type" id="type">
+                <option value="Duvida">Dúvida</option>
+                <option value="Elogio">Elogio</option>
+                <option value="Problemas Tecnicos">Problemas Técnicos</option>
+                <option value="Criticas">Críticas</option>
+                </select>
+                
+                <br>
+				<br>
                 <div class="formulario__grupo">
                     <textarea class="formulario__campo" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
                 </div>

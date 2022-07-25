@@ -21,6 +21,7 @@ textarea:focus, input:focus, select:focus, button:focus {
 
 body {
 	font-family: 'Fira Code', sans-serif;
+    color: #fff;
 }
 
 a {
@@ -55,9 +56,9 @@ nav {
 }
 
 main {
-	/* background: url("../img/bg.jpg") no-repeat center center; */
 	background: #0e5e77;
 	background-size: cover;
+    padding-bottom: 40px;
 	height: 88vh;
 	color: #fff;
 }
@@ -68,12 +69,13 @@ main h1 {
 }
 
 main p {
+    margin: 0 auto;
 	padding: 0 2%;
 	text-align: center;
 }
 
-footer {
-	position: fixed;
+footer { 
+    position: fixed;
 	margin: auto;
 	padding: 4px 0;
 	width: 100%;
@@ -121,7 +123,8 @@ footer {
 	main p {
 		padding-left: 15px;
    		padding-right: 15px;
-		text-align: justify;
+		text-align: center;
+        /* margin: 0 auto; */
 	}
 	footer {
 		padding-top: 300px;
@@ -189,7 +192,7 @@ footer {
 }
 
 .fundo {
-	background: #eeeeee;
+	background: #ffffff;
 	height: 88vh;
 }
 
@@ -231,7 +234,7 @@ footer {
 
 .formulario__campo {
 	background-color: #ECF0F1;
-	color: rgb(26, 26, 26);
+	color: rgb(0, 0, 0);
 	width: 100%;
 	border: 0;
 	border-radius: 5px;
@@ -257,4 +260,46 @@ footer {
 	background-color: #fff;
 	color: #4884DE;
 }
+
+#fundo {
+    background: #0e5e77;
+}
+
+.option {
+    color: rgb(131, 131, 131);
+}
 /*  Fim Contato */
+
+/*Vacinas*/
+.container {
+	background: #ffffff;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0 10%;
+	margin: 0;
+    word-wrap: break-word;
+}
+
+.card {
+	background: #294872;
+	width: 1000px;
+	height: 250px;
+    bottom: 40px;
+	border-radius: 15px;
+	margin: 15px;
+	padding: 30px 20px;
+	transition: 0.5s;
+}
+
+.titulo_vacina{
+    color: #213a5c;
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 2rem;
+}
+/*Fim Vacinas*/
+
+
