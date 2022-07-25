@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vaccine - Login</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="fundo">
+	<header>
+		<nav>
+			<a class="logo" href="index.html">Vaccine</a>
+			<div class="mobile-menu">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<ul class="nav-list">
+				<!-- <li><a href="index.html">Perfil</a></li> -->
+				<li><a href="sobre.html">Sobre</a></li>
+				<li><a href="contato.html">Contato</a></li>
+				<!-- <li>
+					<div>
+						<a class="login" href="login.html">Login</a>
+					</div>
+				</li> -->
+			</ul>
+		</nav>
+	</header>
+    <main>
+        <h1>Contato</h1>
+        <p>Entre em contato conosco para mais informações.</p>
+        <div class="form">
+            <form action="javascript:sendEmail();" class="formulario" method="post">
+                <div class="formulario__grupo">
+                    <input class="formulario__campo" id="nome" type="text" name="nome" placeholder="Nome" required>
+                </div>
+                <div class="formulario__grupo">
+                    <input class="formulario__campo" id="email" type="email" name="email" placeholder="E-mail" required>
+                </div>
+                <div class="formulario__grupo">
+                    <textarea class="formulario__campo" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                </div>
+                <input type="submit" class="formulario__botao" value="Enviar" name="enviar">
+            </form>
+        </div>
+        <p>Em breve você recebera nosso e-mail com mais informações :).</p>
+    </main>
+    <footer>
+		© 2022 Copyright: Vaccine - Todos Direitos Reservados
+	</footer>
+    <script src="js/mobile-navbar.js"></script>
+</body>
+</html>
