@@ -302,4 +302,69 @@ footer {
 }
 /*Fim Vacinas*/
 
+/*index*/
+
+.container2 {
+	background: #ffffff;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	/* padding: 0 10%;
+	margin: 0; */
+}
+
+.titulo_vacina2{
+    color: #213a5c;
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card_vacina {
+	/* background: #294872; */
+    border-style: solid;
+    border-color: #294872;
+	width: 200px;
+	height: 1000px;
+    bottom: 40px;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 30px 20px;
+	transition: 0.5s;
+    color: #294872;
+}
+
+.card_filho {
+	/* background: #294872; */
+    border-style: solid;
+    border-color: #294872;
+	width: 800px;
+	height: 1000px;
+    bottom: 40px;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 30px 20px;
+	transition: 0.5s;
+    color: #294872;
+}
+
+.card_campanha {
+	/* background: #294872; */
+    border-style: solid;
+    border-color: #294872;
+	width: 1030px;
+	height: 250px;
+    bottom: 40px;
+	border-radius: 15px;
+	margin: 15px;
+	padding: 30px 20px;
+	transition: 0.5s;
+    color: #294872;
+    display: flex;
+}
+
+/*Fim index*/
+
 
