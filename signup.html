@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Vaccine - Cadastro</title>
-	<link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaccine - Cadastro</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body class="fundo">
-	<header>
-		<nav>
-			<a class="logo" href="index.html">Vaccine</a>
-			<div class="mobile-menu">
-				<div class="line1"></div>
-				<div class="line2"></div>
-				<div class="line3"></div>
-			</div>
-			<ul class="nav-list">
-				<!-- <li><a href="index.html">Perfil</a></li> -->
-				<li><a href="sobre.html">Sobre</a></li>
-				<li><a href="contato.html">Contato</a></li>
-				<!-- <li>
+    <header>
+        <nav>
+            <a class="logo" href="index.html">Vaccine</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <!-- <li><a href="index.html">Perfil</a></li> -->
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <!-- <li>
 					<div>
 						<a class="login" href="login.html">Login</a>
 					</div>
 				</li> -->
-			</ul>
-		</nav>
-	</header>
+            </ul>
+        </nav>
+    </header>
     <main>
         <h1>Cadastro</h1>
         <p>Bem Vindo(a)! Registre-se!!</p>
@@ -41,10 +42,15 @@
                     <input class="formulario__campo" id="email" type="email" name="email" placeholder="E-mail" required>
                 </div>
                 <div class="formulario__grupo">
-                    <input class="formulario__campo" id="senha1" type="password" name="senha1" placeholder="Senha" required>
+                    <input class="formulario__campo" id="CNS" type="text" name="CNS" placeholder="CNS" required>
                 </div>
                 <div class="formulario__grupo">
-                    <input class="formulario__campo" id="senha2" type="password" name="senha2" placeholder="Confirmar Senha" required>
+                    <input class="formulario__campo" id="senha1" type="password" name="senha1" placeholder="Senha"
+                        required>
+                </div>
+                <div class="formulario__grupo">
+                    <input class="formulario__campo" id="senha2" type="password" name="senha2"
+                        placeholder="Confirmar Senha" required>
                 </div>
                 <input id="cadastrar" type="submit" class="formulario__botao" value="Cadastro" name="cadastro">
             </form>
@@ -53,8 +59,9 @@
         <p><a href="contato.html">Dúvidas e sugestões, entre em contato conosco.</a></p>
     </main>
     <footer>
-		© 2022 Copyright: Vaccine - Todos Direitos Reservados
-	</footer>
+        © 2022 Copyright: Vaccine - Todos Direitos Reservados
+    </footer>
     <script src="js/mobile-navbar.js"></script>
 </body>
+
 </html>
