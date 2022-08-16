@@ -13,7 +13,10 @@ img {
 }
 */
 
-textarea:focus, input:focus, select:focus, button:focus {
+textarea:focus,
+input:focus,
+select:focus,
+button:focus {
 	box-shadow: 0 0 0 0;
 	border: 0 none;
 	outline: 0;
@@ -21,7 +24,7 @@ textarea:focus, input:focus, select:focus, button:focus {
 
 body {
 	font-family: 'Fira Code', sans-serif;
-    color: #fff;
+	color: #fff;
 }
 
 a {
@@ -48,7 +51,7 @@ a:hover {
 
 nav {
 	display: flex;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 	background: #0e5e77;
@@ -58,7 +61,7 @@ nav {
 main {
 	background: #0e5e77;
 	background-size: cover;
-    padding-bottom: 40px;
+	padding-bottom: 40px;
 	height: 88vh;
 	color: #fff;
 }
@@ -69,13 +72,13 @@ main h1 {
 }
 
 main p {
-    margin: 0 auto;
+	margin: 0 auto;
 	padding: 0 2%;
 	text-align: center;
 }
 
-footer { 
-    position: fixed;
+footer {
+	position: fixed;
 	margin: auto;
 	padding: 4px 0;
 	width: 100%;
@@ -117,25 +120,30 @@ footer {
 	body {
 		overflow-x: hidden;
 	}
+
 	main {
 		height: 98vh;
 	}
+
 	main p {
 		padding-left: 15px;
-   		padding-right: 15px;
+		padding-right: 15px;
 		text-align: center;
-        /* margin: 0 auto; */
+		/* margin: 0 auto; */
 	}
+
 	footer {
 		padding-top: 300px;
 		padding-left: 5px;
-   		padding-right: 5px;
+		padding-right: 5px;
 		align-items: center;
 		height: 10vh;
 	}
+
 	.form__p {
 		text-align: center;
 	}
+
 	.nav-list {
 		position: absolute;
 		top: 8vh;
@@ -149,16 +157,20 @@ footer {
 		transform: translateX(100%);
 		transition: transform 0.3s ease-in;
 	}
+
 	.nav-list li {
 		margin-left: 0;
 		opacity: 0;
 	}
+
 	.mobile-menu {
 		display: block;
 	}
+
 	.login {
 		margin: 0;
 	}
+
 	footer {
 		position: relative;
 	}
@@ -173,6 +185,7 @@ footer {
 		opacity: 0;
 		transform: translateX(50px);
 	}
+
 	to {
 		opacity: 1;
 		transform: translateX(0);
@@ -262,44 +275,46 @@ footer {
 }
 
 #fundo {
-    background: #0e5e77;
+	background: #0e5e77;
 }
 
 .option {
-    color: rgb(131, 131, 131);
+	color: rgb(131, 131, 131);
 }
+
 /*  Fim Contato */
 
 /*Vacinas*/
 .container {
 	background: #ffffff;
 	display: flex;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 0 10%;
 	margin: 0;
-    word-wrap: break-word;
+	word-wrap: break-word;
 }
 
 .card {
 	background: #294872;
 	width: 1000px;
 	height: 250px;
-    bottom: 40px;
+	bottom: 40px;
 	border-radius: 15px;
 	margin: 15px;
 	padding: 30px 20px;
 	transition: 0.5s;
 }
 
-.titulo_vacina{
-    color: #213a5c;
-    margin: 40px 0px;
-    text-align: center;
-    font-size: 2rem;
+.titulo_vacina {
+	color: #213a5c;
+	margin: 40px 0px;
+	text-align: center;
+	font-size: 2rem;
 }
+
 /*Fim Vacinas*/
 
 /*index*/
@@ -307,7 +322,7 @@ footer {
 .container2 {
 	background: #ffffff;
 	display: flex;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
@@ -315,56 +330,55 @@ footer {
 	margin: 0; */
 }
 
-.titulo_vacina2{
-    color: #213a5c;
-    margin: 20px 0px;
-    text-align: center;
-    font-size: 2rem;
+.titulo_vacina2 {
+	color: #213a5c;
+	margin: 20px 0px;
+	text-align: center;
+	font-size: 2rem;
 }
 
 .card_vacina {
 	/* background: #294872; */
-    border-style: solid;
-    border-color: #294872;
+	border-style: solid;
+	border-color: #294872;
 	width: 200px;
 	height: 1000px;
-    bottom: 40px;
+	bottom: 40px;
 	border-radius: 10px;
 	margin: 15px;
 	padding: 30px 20px;
 	transition: 0.5s;
-    color: #294872;
+	color: #294872;
 }
 
 .card_filho {
 	/* background: #294872; */
-    border-style: solid;
-    border-color: #294872;
+	border-style: solid;
+	border-color: #294872;
 	width: 800px;
 	height: 1000px;
-    bottom: 40px;
+	bottom: 40px;
 	border-radius: 10px;
 	margin: 15px;
 	padding: 30px 20px;
 	transition: 0.5s;
-    color: #294872;
+	color: #294872;
 }
 
 .card_campanha {
 	/* background: #294872; */
-    border-style: solid;
-    border-color: #294872;
+	border-style: solid;
+	border-color: #294872;
 	width: 1030px;
 	height: 250px;
-    bottom: 40px;
+	bottom: 40px;
 	border-radius: 15px;
 	margin: 15px;
 	padding: 30px 20px;
 	transition: 0.5s;
-    color: #294872;
-    display: flex;
+	color: #294872;
+	display: flex;
 }
 
+
 /*Fim index*/
-
-
